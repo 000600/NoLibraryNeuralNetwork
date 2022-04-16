@@ -57,13 +57,15 @@ def backprop(w1, w2, w3, w4, w5, w6, xs, neuron1, neuron2, lr, error):
   nw2 = w2 - delta * xs[1] * w5 # x[1] because w2 is connected to the second x neuron and w5 because w2 and w5 are attached to the same hidden neuron
   nw1 = w1 - delta * xs[0] * w5 # x[0] because w1 is connected to the first x neuron and w5 because w1 and w5 are attached to the same hidden neuron
   
-  return nw1, nw2, nw3, nw4, nw5, nw6
+  return nw1, nw2, nw3, nw4, nw5, nw6 # n signifies "new"
 
 # Train the network
 i = 0
 epochs = 1000
 
 for epoch in range(epochs):
+  
+  # Loop through the dataset
   if i > len(x) - 1:
     i = 0
 
