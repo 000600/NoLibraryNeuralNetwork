@@ -4,7 +4,7 @@
 import random
 import matplotlib.pyplot as plt
 
-# Get dataset
+# Example dataset
 x = [[2, 3], [3, 4], [6, 8], [2, 6]]
 y = [1, 1, 2, 4] # y values are x[0] - x[1]
 
