@@ -1,4 +1,4 @@
-# LINK TO NEURAL NETWORK: https://hmkcode.com/images/ai/bp_forward_2.png
+# Link to neural network layout: https://hmkcode.com/images/ai/bp_forward_2.png
 
 # Import  Packages
 import random
