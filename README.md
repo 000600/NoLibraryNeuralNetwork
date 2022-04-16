@@ -4,4 +4,4 @@ This neural network that only uses the random library (for weight initialization
 traditional machine learning libraries like Tensorflow, PyTorch, Scikit-Learn or others. The network is based off of HMK Code's step by step tutorial explaining 
 how forward and backward propogation work in updating neural network weights. Please note that this network does not include biases.
 
-Feel free to update the dataset or change the network!
+Feel free to experiment with the dataset, training process, or network architecture!
